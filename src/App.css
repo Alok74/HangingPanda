@@ -1,0 +1,57 @@
+.main-container{
+  margin: auto;
+  min-width: 450px;
+  min-height: 350px;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin-top: 100px;
+  background-color: black;
+}
+.heading{
+  font-size: 32px;
+  text-align: center;
+  color: white;
+}
+.input-box{
+  margin-left: 52px;
+  width: 180px;
+  height:30px;
+  border-radius: 5px;
+}
+.add-btn{
+  margin-left: 20px;
+  height: 30px;
+  background-color: dodgerblue;
+  border-radius: 5px;
+  width: 60px;
+}
+
+.delete-btn{
+  margin-left: 100px;
+  background-color: red;
+  height: 30px;
+  border-radius: 5px;
+}
+.edit-todo{
+  margin-left: 90px;
+  background-color: yellow;
+  height: 30px;
+  border-radius: 5px;
+  width: 50px;
+}
+.task-item {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid gray;
+  color: white;
+  margin: 8px;
+  border-radius: 5px;
+  font-size: larger;
+}
+.strike:checked + span{
+  text-decoration:line-through
+}
+.todo-app{
+  display: grid;
+}
