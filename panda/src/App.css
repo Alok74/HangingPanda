@@ -1,33 +1,54 @@
 .main-container{
   margin: auto;
-  min-width: 450px;
-  min-height: 350px;
+  width: 850px;
+  height: 150px;
   border-radius: 5px;
   border: 1px solid black;
-  margin-top: 100px;
-  background-color: black;
+  background-color:rgb(33,64,40);
+
 }
 .heading{
-  font-size: 32px;
+  font-size: 62px;
   text-align: center;
+  margin: auto;
+  margin-top: 35px;
   color: white;
+
+}
+.todo-app{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  min-height: 450px;
+  width: 550px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(244,244,245);
+}
+.task-heading{
+  font-size: 30px;
+  margin-left: 45px;
+  margin-bottom: 10px;
+}
+.input-container{
+  display: flex;
 }
 .input-box{
-  margin-left: 52px;
-  width: 180px;
+  margin-left: 50px;
+  width: 390px;
   height:30px;
   border-radius: 5px;
 }
 .add-btn{
   margin-left: 20px;
-  height: 30px;
+  height: 35px;
   background-color: dodgerblue;
   border-radius: 5px;
   width: 60px;
 }
 
 .delete-btn{
-  margin-left: 100px;
+  margin-right: -65px;
   background-color: red;
   height: 30px;
   border-radius: 5px;
@@ -44,14 +65,34 @@
   align-items: center;
   padding: 5px;
   border: 1px solid gray;
-  color: white;
+  color: black;
   margin: 8px;
   border-radius: 5px;
   font-size: larger;
+  min-height: 30px;
 }
-.strike:checked + span{
-  text-decoration:line-through
+.btn-div{
+  display: flex;
+  margin: auto;
+  margin-right: 10px;
 }
-.todo-app{
-  display: grid;
+.completed-task {
+  text-decoration: line-through;
+  color: gray;
+  opacity: 0.7;
+}
+.save-btn{
+  background-color: dodgerblue;
+  color: black;
+  height: 30px;
+  width: 48px;
+  border-radius: 5px;
+}
+.edit-box{
+  border: none;
+  cursor:pointer;
+  height: 25px;
+  font-size: 15px;
+  border-radius: 2px;
+  background:transparent;
 }
